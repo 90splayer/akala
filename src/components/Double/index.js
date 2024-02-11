@@ -1,6 +1,7 @@
 'use client';
 import styles from './style.module.scss';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useRef } from 'react'; 
 
 export default function Index({projects, reversed}) {
@@ -45,7 +46,7 @@ export default function Index({projects, reversed}) {
     return(
       <div onMouseMove={(e) => {manageMouseMove(e)}} className={styles.double}>
   
-        <div ref={firstImage} className={styles.imageContainer}>
+        <Link href={projects[0].link} ref={firstImage} className={styles.imageContainer}>
           <div className={styles.stretchyWrapper}>
             <Image 
               src={`/images/${projects[0].src}`}
@@ -56,11 +57,10 @@ export default function Index({projects, reversed}) {
           <div className={styles.body}>
               <h3>{projects[0].name}</h3>
               <p>{projects[0].description}</p>
-              <p>{projects[0].year}</p>
           </div>
-        </div>
+        </Link>
   
-        <div ref={secondImage} className={styles.imageContainer}>
+        <Link href={projects[1].link} ref={secondImage} className={styles.imageContainer}>
           <div className={styles.stretchyWrapper}>
             <Image 
               src={`/images/${projects[1].src}`}
@@ -71,9 +71,8 @@ export default function Index({projects, reversed}) {
           <div className={styles.body}>
               <h3>{projects[1].name}</h3>
               <p>{projects[1].description}</p>
-              <p>{projects[1].year}</p>
           </div>
-        </div>
+        </Link>
   
       </div>
     )

@@ -43,9 +43,7 @@ export default function Akala() {
         
         <motion.div variants={item} initial="hidden"
          animate="visible" className='col-span-5 bg-white py-8 px-16 leading-10 shadow-lg'>
-          <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Sed sed auctor elit. Proin mollis arcu nibh, quis blandit lacus commodo sit amet. 
-          Proin blandit purus id mauris fermentum aliquam. Vestibulum.”</p>
+          <p>Akala is a work of African surrealism that draws heavily on Igbo pre-colonial culture and belief system to tell the story of a people in a time now lost. Welcome to the adventure!</p>
         </motion.div>
       </div>
     </motion.div>

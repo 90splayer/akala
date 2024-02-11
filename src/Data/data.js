@@ -64,16 +64,16 @@ export const actors = [
 
 export const projects = [
     {
-        name: "Things of the past.",
-        description: "The book about connections from the past.",
-        src: "pig.png",
+        link: "https://selar.co/m/WilliamMooregew8",
+        description: "Pre-Order Akala",
+        src: "akala.png",
         year: 2022,
     },
    
     {
-        name: "Youtube",
-        description: "The online presence for Moore—Studio.",
-        src: "youtube.png",
+        link: "https://selar.co/m/WilliamMooregew8",
+        description: "13 Moons",
+        src: "moons.png",
         year: 2023,
     },
    

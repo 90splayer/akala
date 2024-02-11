@@ -5,8 +5,8 @@ import Container from '../Container';
 
 export default function Essays() {
   return (
-    <Container>
-    <main className={styles.main}>
+    <Container >
+    <main id='books' className={styles.main}>
      <div className={styles.gallery}>
         <Double projects={[projects[0], projects[1]]}/>
       </div>
