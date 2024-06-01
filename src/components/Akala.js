@@ -35,8 +35,8 @@ export default function Akala() {
          whileInView={{y:0, opacity:1, transition:{duration:0.5, ease:"easeInOut"}}}
          viewport={{once:true}} className='text-center text-[3rem] font-semibold text-black'>What is Akala?</motion.h1>
       <div className='grid grid-cols-7 items-center justify-center'>
-        <motion.div initial={{x:[-400], opacity:0}}
-         whileInView={{x:0, opacity:1, transition:{duration:0.5, ease:"easeInOut"}}}
+        <motion.div initial={{opacity:0}}
+         whileInView={{opacity:1, transition:{duration:0.5, ease:"easeInOut"}}}
          viewport={{once:true}} className='col-span-2 mr-[-3rem] z-10'>
           <Image src={book} className=''/>
         </motion.div>
