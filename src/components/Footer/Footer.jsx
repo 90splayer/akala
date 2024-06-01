@@ -1,7 +1,6 @@
 'use client';
-import styles from './page.scss'
+
 import GsapMagnetic from './gsap';
-import FramerMagnetic from './framer';
 import Container from '../Container';
 import {motion} from 'framer-motion'
 import Link from 'next/link';

@@ -19,7 +19,6 @@ export default function Home() {
      <Actors/>
      <Story/>
      <Essays/>
-     <Substack/>
      <Inspirations/>
      <Footer/>
     </main>
