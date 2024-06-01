@@ -13,8 +13,8 @@ export default function Inspirations() {
       justify-center py-2 px-12 gap-3 flex'>
        <h1 className="text-[2rem] font-semibold text-black">Resources</h1>
        <ul className="">
-       <Link href='https://youtube.com/@TheMedicineShell?si=Ru_YOGmDSzFbHpt4' className="flex gap-3 items-center justify-center"><span className="leading-7">Learn about igbo cosmology for non-igbo speakers <span className="font-semibold">From Medicine Shell</span><AiFillYoutube className="inline-block w-8 text-red-600 h-auto"/></span></Link>
-       <Link href='https://www.facebook.com/profile.php?id=100066676973079&mibextid=2JQ9oc' className="flex gap-3 items-center justify-center"><span className="leading-7">Learn about igbo traditions and linguistics From <span className="font-semibold">Igbo Heritage</span><AiFillYoutube className="inline-block w-8 text-red-600 h-auto"/></span></Link>
+       <Link href='https://youtube.com/@TheMedicineShell?si=Ru_YOGmDSzFbHpt4' target='_blank' className="flex gap-3 items-center justify-center"><span className="leading-7">Learn about igbo cosmology for non-igbo speakers <span className="font-semibold">From Medicine Shell</span><AiFillYoutube className="inline-block w-8 text-red-600 h-auto"/></span></Link>
+       <Link href='https://www.facebook.com/profile.php?id=100066676973079&mibextid=2JQ9oc' target='_blank' className="flex gap-3 items-center justify-center"><span className="leading-7">Learn about igbo traditions and linguistics From <span className="font-semibold">Igbo Heritage</span><AiFillYoutube className="inline-block w-8 text-red-600 h-auto"/></span></Link>
        </ul>
       </motion.div>
       </Container>

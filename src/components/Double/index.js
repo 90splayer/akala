@@ -46,7 +46,7 @@ export default function Index({projects, reversed}) {
     return(
       <div onMouseMove={(e) => {manageMouseMove(e)}} className={styles.double}>
   
-        <Link href={projects[0].link} ref={firstImage} className={styles.imageContainer}>
+        <Link href={projects[0].link} target='_blank' ref={firstImage} className={styles.imageContainer}>
           <div className={styles.stretchyWrapper}>
             <Image 
               src={`/images/${projects[0].src}`}
@@ -60,7 +60,7 @@ export default function Index({projects, reversed}) {
           </div>
         </Link>
   
-        <Link href={projects[1].link} ref={secondImage} className={styles.imageContainer}>
+        <Link href={projects[1].link} target='_blank' ref={secondImage} className={styles.imageContainer}>
           <div className={styles.stretchyWrapper}>
             <Image 
               src={`/images/${projects[1].src}`}

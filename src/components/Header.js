@@ -29,9 +29,8 @@ export default function Header() {
   const toggleMenu = () => menuRef.current.classList.toggle('show__menu')
   return (
     <Container>
-    <div className='header flex items-center bg-white' ref={headerRef}>
-    <div className='container'>
-    <main className='flex items-center justify-between'>
+    <div className='header flex items-center bg-white w-full' ref={headerRef}>
+    <main className='flex items-center justify-between w-full'>
       <Link href='/'>
         <Image className='w-[90px] h-auto' src={logo} alt='akala'/>
       </Link>
@@ -41,7 +40,7 @@ export default function Header() {
         <Link href="#about"><li>ABOUT</li></Link>
         <Link href='#books'><li>BOOKS</li></Link>
         <Link href='#contact'><li>CONTACT</li></Link>
-        <Link href='/'><li className='bg-yellow-500 px-4 py-2 rounded-md' >DONATE</li></Link> 
+        <Link href='https://selar.co/showlove/williammoore' target='_blank'><li className='bg-yellow-500 px-4 py-2 rounded-md' >DONATE</li></Link> 
       </ul>
       </div>
 
@@ -49,7 +48,6 @@ export default function Header() {
         <BiMenu className='w-6 h-6 cursor-pointer'/>
       </span>
     </main>
-    </div>
     </div>
     </Container>
   )

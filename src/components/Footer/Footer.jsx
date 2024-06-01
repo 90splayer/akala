@@ -7,11 +7,11 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <Container className=''>
+    <div className='max-w-[2520px] mx-auto xl:px-20 md:px-10 sm:px-2 px-4 overflow-hidden flex justify-center w-full'>
       
       <motion.div initial={{y:[100], opacity:0}}
          whileInView={{y:0, opacity:1, transition:{duration:0.5, ease:"easeInOut"}}}
-         viewport={{once:true}} className='container flex items-center justify-around mt-24 mb-20'>
+         viewport={{once:true}} className='container flex items-center justify-between w-full mt-24 mb-20'>
          <Link href={'https://www.facebook.com/willifmoore?mibextid=2JQ9oc'}>
           <GsapMagnetic className='inline-block'>
             <svg className='fill-gray-700  hover:fill-[#ec4e39] cursor-pointer' id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 31.5 58">
@@ -45,6 +45,6 @@ export default function Footer() {
           </Link>
        
       </motion.div>
-    </Container>
+    </div>
   )
 }
